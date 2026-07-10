@@ -50,6 +50,32 @@ Wrong:
 
 Right: "You can alert via phone call or SMS."
 
+### Dividers between sections
+
+Add a horizontal rule (`---`) after each H2 section ends and before the next H2 heading begins. Do not add dividers between H3 sections.
+
+Wrong:
+## Section one
+Content here.
+## Section two
+Content here.
+
+Right:
+## Section one
+Content here.
+
+---
+
+## Section two
+Content here.
+
+### Headings must not be bold
+
+Do not bold H1, H2, H3, or H4 headings. They are headings already — bold is redundant and incorrect.
+
+Wrong: **## How to set up alerts**
+Right: ## How to set up alerts
+
 ### Voice and tone
 
 The post should sound like one person talking directly to another person. Not a company publishing a document.
