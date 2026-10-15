@@ -11,7 +11,20 @@ Stories live on spike.sh/customers. The model stories are **RevX, HitPath, Bluem
 - The customer's own words: their email or a call transcript. This is the only source for quotes.
 - Their role and company facts. Read the **customer's own website (About page)** for how they describe themselves. LinkedIn is often stale: Perplex's LinkedIn said "internet marketing, 11-50" while their site said "digital agency, 80+ experts". If a site blocks fetching, open it in the browser.
 - Headshot (square) and logo.
-- If anything is missing, ask the user before drafting.
+
+**Hard gate: do not start the story until every key input is in hand.** Do not draft copy, write a card quote, or touch the repo while anything below is missing. As soon as the skill starts, check this list, then send the user ONE message that lists what you already have and asks for everything still missing. Wait for their answer. Only then move to section 2.
+
+Key inputs (all required):
+1. The customer's verbatim words (email or transcript).
+2. Person's name and exact role/title, and the company name.
+3. Team size bracket (for example 11-50, 51-200).
+4. Industry label.
+5. Location.
+6. "Relying on Spike since" date, or an explicit "skip it".
+7. Headshot (square) and logo files, or an explicit instruction on where to source them.
+8. Slug / company website URL.
+
+Never guess a missing item, never fill it from LinkedIn or the site on your own, and never write "pending" placeholders and draft anyway. You may look up facts to suggest an answer (for example from the customer's site or Airtable), but present them as suggestions and wait for the user to confirm. If the user answers only some items, ask again for the rest.
 
 ## 2. Structure (tight, one-to-two sections)
 1. `description`: the H1 and the card blurb. Spike-authored, "Spike helps X ..." style, one sentence.
